@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kola Snehith | Cybersecurity Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="background-animation">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">KS<span class="dot">.</span></div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact" class="btn-contact">Contact Me</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <section id="about" class="hero">
+        <div class="container hero-container">
+            
+            <div class="hero-text">
+                <div class="badge">Cybersecurity Student</div>
+                <h1 class="name">Kola Snehith</h1>
+                <h2 class="role">Full Stack & Network Security</h2>
+                <p class="summary">
+                    B.Tech student at <strong>Lovely Professional University</strong>. 
+                    I build secure web applications and analyze network vulnerabilities. 
+                    Passionate about <strong>Ethical Hacking</strong> and <strong>Algorithmic Problem Solving</strong>.
+                </p>
+                
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/kola-snehith" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/Sehith77" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:kola.snehith23@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <div class="cta-group">
+                    <a href="#projects" class="btn btn-primary">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="assets/resume.pdf" download="Kola_Snehith_CV.pdf" class="btn btn-outline">
+                        Resume <i class="fas fa-download"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="image-box">
+                    <img src="assets/profile.jpg" 
+                         alt="Kola Snehith" 
+                         onerror="this.src='https://ui-avatars.com/api/?name=Kola+Snehith&background=0ea5e9&color=fff&size=512&font-size=0.35'">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="skills-grid">
+                
+                <div class="glass-card">
+                    <div class="icon-box"><i class="fas fa-code"></i></div>
+                    <h3>Languages</h3>
+                    <div class="tags">
+                        <span>Java</span>
+                        <span>C++</span>
+                        <span>Python</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <div class="icon-box"><i class="fas fa-layer-group"></i></div>
+                    <h3>Frameworks</h3>
+                    <div class="tags">
+                        <span>Django</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+
+                <div class="glass-card">
+                    <div class="icon-box"><i class="fas fa-terminal"></i></div>
+                    <h3>Security Tools</h3>
+                    <div class="tags">
+                        <span>Kali Linux</span>
+                        <span>Wireshark</span>
+                        <span>Nmap</span>
+                        <span>Burp Suite</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-shield-virus"></i>
+                        <a href="https://github.com/Sehith77" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Network Vuln Scanner</h3>
+                    <p class="tech">Python • Socket • Streamlit</p>
+                    <p class="description">
+                        Automated scanner detecting open ports (21, 22, 80) and weak configs. Features a real-time web dashboard for threat analysis.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-tasks"></i>
+                        <a href="https://github.com/Sehith77" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>Student Task Manager</h3>
+                    <p class="tech">Django • MySQL • Bootstrap</p>
+                    <p class="description">
+                        Secure task management system with user authentication and CRUD operations. Optimized for performance and data integrity.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <div class="card-header">
+                        <i class="fas fa-project-diagram"></i>
+                        <a href="https://github.com/Sehith77" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                    <h3>DSA Visualizer</h3>
+                    <p class="tech">C++ • JavaScript • HTML</p>
+                    <p class="description">
+                        Interactive tool visualizing Stack, Queue, and Linked List operations. Bridges C++ backend logic with a frontend display.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+            <div class="split-layout">
+                
+                <div class="split-col">
+                    <h2 class="col-title"><i class="fas fa-user-graduate"></i> Education</h2>
+                    <div class="timeline-box">
+                        <div class="timeline-item">
+                            <span class="year">2023 - Present</span>
+                            <h3>B.Tech CSE</h3>
+                            <p>Lovely Professional University</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="year">2023</span>
+                            <h3>Intermediate</h3>
+                            <p>Trinity Junior College (92%)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="split-col">
+                    <h2 class="col-title"><i class="fas fa-certificate"></i> Certifications</h2>
+                    <div class="cert-list">
+                        <div class="cert-item">
+                            <h4>Mastering DSA with C++</h4>
+                            <span class="issuer">Fifth Force</span>
+                        </div>
+                        <div class="cert-item">
+                            <h4>TCP/IP & Advanced Topics</h4>
+                            <span class="issuer">Coursera</span>
+                        </div>
+                        <div class="cert-item">
+                            <h4>Responsive Web Design</h4>
+                            <span class="issuer">FreeCodeCamp</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <div class="contact-box">
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>kola.snehith23@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 89781 67567</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>India</span>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <input type="text" placeholder="Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea rows="4" placeholder="Message" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Kola Snehith. Built with secure code.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
